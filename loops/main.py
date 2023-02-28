@@ -11,3 +11,13 @@ for name in NAMES:
 
 for name, age in zip(NAMES, AGES):
     print(f"{name}", f"{age}")
+
+for i in range(len(NAMES)):
+    print(NAMES[i], AGES[i])
+
+for name in reversed(NAMES):
+    print(name)
+
+# enumerate
+for i, name in enumerate(NAMES):
+    print(i, name)
